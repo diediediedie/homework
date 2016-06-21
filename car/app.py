@@ -11,9 +11,6 @@ GPIO.setup(12,GPIO.OUT)
 GPIO.setup(13,GPIO.OUT)
 GPIO.setup(16,GPIO.OUT)
 
-#不明究理的地方
-#主要參考http://www.cnblogs.com/ttssrs/p/4890635.html
-#方向的輸出高低電壓可能還要在做修改
 
 app=Flask(__name__)
 
